@@ -1,0 +1,58 @@
+.modal-blur-area{ 
+   position: fixed;
+   width: 100vw;
+   height: 100vh;
+   background-image: linear-gradient(rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8));
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    overflow: scroll;
+     overflow: hidden;
+
+
+   .modal-content{
+   width: 435px;
+   background-color: #fff;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+   border-radius: 6px;
+
+
+   .modal-top{
+    padding: 15px 15px 8px 15px;
+    width: 100%;
+    .modal-top-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    h2{
+        font-size: 32px;
+        font-weight: 800;
+
+    }
+    button{
+       background-color: transparent;
+       border: none;
+       font-size: 24px;
+       cursor: pointer;
+       
+
+    }
+   }
+   }
+   
+    .divider{
+        height: 1px;
+        background-color: #dadada;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+   p{
+    font-size: 15px;
+    color: #606770;
+    line-height: 24px;
+   }
+   }
+   
+   
+}

@@ -1,0 +1,282 @@
+:root{
+    --primary-color:#1877f2;
+    --secodary-color:#42b72a;
+}
+
+
+.main{
+    background-color: #f0f2f5;
+     overflow: scroll;
+     overflow: hidden;
+}
+.container{
+    width: 980px;
+    height: 120vh;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .left-content{ 
+        
+         margin-top: -147px;
+      .img-content{
+        display: flex;
+        flex-direction: column;
+        img{
+            margin-left: -25px;
+            width: 315px;
+            
+        }
+      }
+      .text-content{
+        display: flex;
+        flex-direction: column;
+            font-size: 30px;
+            line-height: 33px;
+            width: 90%;
+            letter-spacing: 0.5px;
+
+        h4{
+            font-weight: 200;
+        }
+      }
+    }
+.main-right-content{
+    width: 396px;
+        height: 456;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        p{
+            font-size: 17px;
+            color: #33363b;
+            padding: 0;
+            margin-top: 28px;
+            font-weight: 300;
+            a{
+                text-decoration: none;
+                color: #1c1e21;
+                font-weight: 800;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+           
+        }
+    .right-content{
+        
+        background-color: #ffffff;
+        width: 396px;
+        height: 456;
+         border-radius: 6px;
+        display: flex;
+        flex-direction: column;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+        form{
+            display: flex;
+            flex-direction: column;
+            gap:15px;
+            padding: 15px;
+            border-radius: 6px;
+            text-align: center;
+            input{
+                  caret-color: #1877f2;
+
+                padding: 14px 16px;
+                font-size: 17px;
+                border-radius: 6px;
+                border: 1px solid #ccc;
+                outline-color: rgba(238, 68, 51, 0.3333333333);
+                color: #ccc;
+                &:focus{
+                    border-color:  #1877f2;
+                    
+                }
+            
+            }
+            
+            button{
+
+                padding: 0px 16px;
+                line-height: 48px;
+                font-size: 20px;
+                border-radius: 6px;
+                border: none;
+               background-color: var(--primary-color);
+               color: #ffffff;
+               cursor: pointer;
+            }
+        }
+        .forgatPass{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            a{
+                
+                color: #1877f2;
+                font-size: 16px;
+                font-weight: 500;
+            }
+            &:hover{
+                text-decoration: underline;
+                cursor: pointer;
+                color: #1877f2;
+            }
+        }
+     .divider{
+        align-items: center;
+        text-align: center;
+        background-color: #ccc;
+        height: 1px;
+       margin-top: 20px;
+       margin-bottom: 20px;
+       width: 91%;
+     }
+     .create-account{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       button{
+                  cursor: pointer;
+                padding: 0px 16px;
+                line-height: 48px;
+                font-size: 17px;
+                border-radius: 6px;
+                border: 1px solid #ccc;
+               outline-color: #e435;
+               background-color: var(--secodary-color);
+               color: #ffffff;
+               margin-bottom: 25px;
+               font-weight: 600;
+       }
+     }
+
+     .buttom-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      
+     }
+    }
+}
+    
+}  
+.footer-container{
+    height: 30vh;
+    background-color: #fff;
+}
+.sing-up-form{
+
+    padding: 3px 15px 15px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    input{
+
+        width: 100%;
+        padding: 11px;
+        font-size: 15px;
+        background: #f5f6f7;
+        border-radius: 5px;
+        border:1px solid  #bdc7d8;;
+    }
+    .auth-name{
+        display: flex;
+        gap: 10px ;
+    }
+    .form-ex-content{
+        color: #33363b;
+        display: flex;
+       flex-direction: column;
+       gap: 5px;
+       .form-title{
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        svg{
+            cursor:pointer;
+        }
+       }
+       .form-opt{
+        display: flex;
+        justify-content: space-between;
+        gap: 5px;
+        
+        select{
+            flex: 1;
+            color: #1c1e21;
+            font-size: 14px;
+            font-weight: normal;
+            height: 36px;
+            padding: 0 8px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+        
+        label{
+            padding: 7px 10px;
+            display: flex;
+            flex: 1;
+            gap: 10px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+            justify-content: space-between;
+            input[type="radio"] {
+              width: 13px;
+           
+             
+
+            }
+        }
+ 
+       }
+       
+    }
+    
+ .button-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  button{
+      padding: 8px 65px;
+      border-radius: 6px;
+      border: none;
+      color: #FFFF;
+      background-color: #00a400;
+      font-size: 18px;
+      font-weight: 700;
+    
+      &:hover{
+        background: linear-gradient(#79bc64, #578843)
+      }
+  }
+   
+    
+ }
+ .form-text{
+    .butom-p{
+        padding-top: 10px;
+       
+    }
+     a{
+            color:#385898 ;
+            text-decoration: none;
+            &:hover{
+                text-decoration: underline;
+            }
+
+        }
+   p{
+     font-size: 12.5px;
+     line-height: normal;
+     font-weight: normal;
+    
+    
+   }
+ }
+}
